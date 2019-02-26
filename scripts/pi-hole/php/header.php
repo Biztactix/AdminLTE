@@ -180,13 +180,13 @@
     <meta http-equiv="cache-control" content="max-age=60,private">
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/BizShield64px.png" type="image/x-icon" />
     <meta name="theme-color" content="#367fa9">
-    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="img/logo.svg">
-    <link rel="icon" type="image/png" sizes="96x96" href="img/logo.svg">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/BizShield64px.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/BizShield64px.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/BizShield64px.png">
     <meta name="msapplication-TileColor" content="#367fa9">
-    <meta name="msapplication-TileImage" content="img/logo.svg">
+    <meta name="msapplication-TileImage" content="img/BizShield64px.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
     <link href="style/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -198,7 +198,8 @@
     <link href="style/vendor/AdminLTE.min.css" rel="stylesheet" type="text/css" />
     <link href="style/vendor/skin-blue.min.css" rel="stylesheet" type="text/css" />
     <link href="style/pi-hole.css" rel="stylesheet" type="text/css" />
-    <link rel="icon" type="image/png" sizes="160x160" href="img/logo.svg" />
+	<link rel="stylesheet" type="text/css" href="style/Biz.css">
+    <link rel="icon" type="image/png" sizes="160x160" href="img/BizShield64px.png" />
 
     <!--[if lt IE 9]>
     <script src="scripts/vendor/html5shiv.min.js"></script>
