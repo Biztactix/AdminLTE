@@ -14,3 +14,7 @@
 .skin-blue .main-header .logo {
     background-color: #58585b;
 }
+
+.layout-boxed {
+    background: url(/img/NetworkBG.jpg) fixed;
+}
