@@ -236,7 +236,7 @@ if($auth) {
 <div class="wrapper">
     <header class="main-header">
         <!-- Logo -->
-        <img src='https://biztactix.com.au/wp-content/uploads/2018/05/Black-v4-Long-400px.png'>
+        <img src='img/Black-v4-Long-400px.png'>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
             <!-- Sidebar toggle button-->
@@ -314,7 +314,7 @@ if($auth) {
             <!-- Sidebar user panel -->
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="img/logo.svg" class="img-responsive" alt="Pi-hole logo" style="display: table; table-layout: fixed; height: 67px;" />
+                    <img src="img/BizShield64px.png" class="img-responsive" alt="Pi-hole logo" style="display: table; table-layout: fixed; height: 67px;" />
                 </div>
                 <div class="pull-left info">
                     <p>Status</p>
