@@ -175,3 +175,6 @@
 .float-left{
     float:left;
 }
+.logo-lg{
+	max-width:90%;
+}
