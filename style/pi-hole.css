@@ -175,6 +175,10 @@
 .float-left{
     float:left;
 }
-.logo-lg{
-	max-width:90%;
+.logo-lg img{
+	max-width:95%;
+}
+
+.user-panel{
+	heigh:90px;
 }
