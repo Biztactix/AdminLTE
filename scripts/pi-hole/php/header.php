@@ -589,12 +589,7 @@ if($auth) {
                     </a>
                 </li>
                 <?php } ?>
-                <!-- Donate -->
-                <li>
-                    <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3J2L3Z4DHW9UY" target="_blank">
-                        <i class="fa fa-paypal"></i> <span>Donate</span>
-                    </a>
-                </li>
+                
                 <?php if($auth){ ?>
                 <!-- Help -->
                 <li<?php if($scriptname === "help.php"){ ?> class="active"<?php } ?>>
