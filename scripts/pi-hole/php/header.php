@@ -314,7 +314,7 @@ if($auth) {
             <!-- Sidebar user panel -->
             <div class="user-panel">
                 <div class="pull-left image">
-                    <img src="img/BizShield64px.png" class="img-responsive" alt="Pi-hole logo" style="display: table; table-layout: fixed; height: 67px;" />
+                    <img src="img/BizShield64px.png" class="img-responsive" alt="BizShield logo" style="display: table; table-layout: fixed;" />
                 </div>
                 <div class="pull-left info">
                     <p>Status</p>
