@@ -236,7 +236,13 @@ if($auth) {
 <div class="wrapper">
     <header class="main-header">
         <!-- Logo -->
-        <img src='img/Black-v4-Long-400px.png'>
+		<a href="http://biztactix.com.au" class="logo" target="_blank">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini">Biz</b></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><img src='img/Black-v4-Long-400px.png'></span>
+        </a>
+        
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
             <!-- Sidebar toggle button-->
