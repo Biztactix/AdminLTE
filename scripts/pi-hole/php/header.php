@@ -174,7 +174,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://api.github.com; script-src 'self' 'unsafe-eval'; style-src 'self' 'unsafe-inline'">
-    <title>Pi-hole Admin Console</title>
+    <title>Biztactix DNS Blacklister</title>
     <!-- Usually browsers proactively perform domain name resolution on links that the user may choose to follow. We disable DNS prefetching here -->
     <meta http-equiv="x-dns-prefetch-control" content="off">
     <meta http-equiv="cache-control" content="max-age=60,private">
@@ -236,12 +236,7 @@ if($auth) {
 <div class="wrapper">
     <header class="main-header">
         <!-- Logo -->
-        <a href="http://pi-hole.net" class="logo" target="_blank">
-            <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini">P<b>h</b></span>
-            <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg">Pi-<b>hole</b></span>
-        </a>
+        <img src='https://biztactix.com.au/wp-content/uploads/2018/05/Black-v4-Long-400px.png'>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
             <!-- Sidebar toggle button-->
@@ -250,8 +245,9 @@ if($auth) {
             </a>
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
-                    <li><a style="pointer-events:none;"><samp><?php echo gethostname(); ?></samp></a></li>
+                   <!-- User image <li><a style="pointer-events:none;"><samp><?php echo gethostname(); ?></samp></a></li> -->
                     <li class="dropdown user user-menu">
+					 <!-- User image
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
                             <img src="img/logo.svg" class="user-image" style="border-radius: initial" sizes="160x160" alt="Pi-hole logo" />
                             <span class="hidden-xs">Pi-hole</span>
@@ -542,13 +538,13 @@ if($auth) {
                     <!-- Tail pihole.log -->
                     <li<?php if($scriptname === "taillog.php"){ ?> class="active"<?php } ?>>
                         <a href="taillog.php">
-                            <i class="fa fa-list-ul"></i> <span>Tail pihole.log</span>
+                            <i class="fa fa-list-ul"></i> <span>Tail log</span>
                         </a>
                     </li>
                     <!-- Tail pihole-FTL.log -->
                     <li<?php if($scriptname === "taillog-FTL.php"){ ?> class="active"<?php } ?>>
                         <a href="taillog-FTL.php">
-                            <i class="fa fa-list-ul"></i> <span>Tail pihole-FTL.log</span>
+                            <i class="fa fa-list-ul"></i> <span>Tail FTL.log</span>
                         </a>
                     </li>
                     <!-- Generate debug log -->
